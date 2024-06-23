@@ -1,11 +1,11 @@
 const canvas = document.getElementById('logoCanvas');
 const ctx = canvas.getContext('2d');
 
-const baseImageSrc = 'file:///D:/User/Desktop/logoGovMaker/BlankTemplate_4.png';
-const blackTemplateSrc = 'file:///D:/User/Desktop/logoGovMaker/BlankTemplate_2.png';
-const whiteTemplateSrc = 'file:///D:/User/Desktop/logoGovMaker/BlankTemplate_3.png';
-const boldFontSrc = 'file:///D:/User/Desktop/govlogos/FFQuadraatSansProBold.otf';
-const regularFontSrc = 'file:///D:/User/Desktop/govlogos/QuadraatSansRegular.ttf';
+const baseImageSrc = 'BlankTemplate_4.png';
+const blackTemplateSrc = 'BlankTemplate_2.png';
+const whiteTemplateSrc = 'BlankTemplate_3.png';
+const boldFontSrc = 'FFQuadraatSansProBold.otf';
+const regularFontSrc = 'QuadraatSansRegular.ttf';
 
 // Update canvas dimensions
 canvas.width = 3000;

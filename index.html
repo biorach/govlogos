@@ -23,9 +23,9 @@
                 </div>
                 <div class="control-group">
                     <label for="charLimit">Characters Per Line: <span id="charLimitValue">27</span></label>
-                    <input type="range" id="charLimit" min="20" max="35" value="27" oninput="updatePreview(); updateCharLimitValue()">
+                    <input type="range" id="charLimit" min="15" max="45" value="27" oninput="updatePreview(); updateCharLimitValue()">
                 </div>
-                <button onclick="toggleAdditionalSettings()">Additional Settings</button>
+                <button onclick="toggleAdditionalSettings()">Advanced Options</button>
                 <div id="additionalSettings" class="hidden">
                     <div class="control-group">
                         <label for="irishTextY1">Irish Text Y1 Position:</label>
@@ -44,7 +44,7 @@
                         <input type="number" id="secondTextY2" value="700" oninput="updatePreview()">
                     </div>
                 </div>
-                <button onclick="showSaveImageModal()">Change Style</button>
+                <button onclick="showSaveImageModal()">Select Style to Download</button>
             </div>
             <div class="canvas-container">
                 <canvas id="logoCanvas" width="2905" height="822"></canvas>
@@ -57,7 +57,7 @@
     <div id="saveImageModal" class="modal hidden">
         <div class="modal-content">
             <span class="close" onclick="closeSaveImageModal()">&times;</span>
-            <h2>Select Style</h2>
+            <h2>Select Style to Download</h2>
             <button onclick="saveImage('standard')">Standard</button>
             <button onclick="saveImage('black')">Black</button>
             <button onclick="saveImage('white')">White</button>
